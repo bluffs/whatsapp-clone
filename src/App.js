@@ -7,8 +7,10 @@ import Chat from './Component/Chat/Chat';
 const App = () => {
   return (
     <div className="app">
-      <Sidebar />
-      <Chat />
+      <div className="app__body">
+        <Sidebar />
+        <Chat />
+      </div>
     </div>
   );
 }
